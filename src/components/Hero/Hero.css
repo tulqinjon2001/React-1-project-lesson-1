@@ -1,0 +1,66 @@
+.hero {
+  background-image: linear-gradient(to right, black 0 57%, #57B8FF 57% 100%);
+  font-family: 'Orbitron' sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 195px;
+  padding-bottom: 255px;
+}
+
+.hero__content-link {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #57B8FF;
+  cursor: pointer;
+  display: block;
+  margin: 0;
+}
+
+.hero__content-heading {
+  width: 656px;
+  font-size: 72px;
+  line-height: 86px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 14px;
+}
+
+.hero__content-text {
+  width: 615px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #999999;
+  margin: 0;
+  margin-top: 45px;
+  margin-bottom: 53px;
+}
+
+.hero__button-explore {
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #57B8FF;
+  width: 203px;
+  padding: 21px 34px;
+  cursor: pointer;
+}
+
+.hero__button-team {
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: transparent;
+  width: 203px;
+  padding: 21px 34px;
+  cursor: pointer;
+}
